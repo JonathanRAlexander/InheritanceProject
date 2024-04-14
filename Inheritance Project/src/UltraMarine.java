@@ -8,9 +8,10 @@ public UltraMarine()
 	System.out.println("We are the Emperor's chosen");
 }
 
-public void prepareForBattle()
+public void getTroopCount()
 {
-	System.out.println("We will defeat the enemy with strategical advantages.");
+	System.out.println("We have "+ troopCount + " troops among us. \n"
+			+ "This is only a fraction of the total " + super.troopCount+ " Space Marines we have.");
 }
 	public void raiseBattleStandard()
 	{

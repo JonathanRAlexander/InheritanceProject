@@ -18,5 +18,10 @@ public void raiseBattleStandard()
 	System.out.println("For humanity!");
 }
 
+public void getTroopCount()
+{
+	System.out.println("We have "+ troopCount + " troops among us");
+}
+
 
 	}
