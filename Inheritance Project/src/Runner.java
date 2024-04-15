@@ -7,9 +7,12 @@ public class Runner
 				
 SpaceMarine x = new UltraMarine();
 
-((SpaceMarine)x).getTroopCount();
-x.raiseBattleStandard();
+x.getTroopCount();//calls both variables in one statement
+
+System.out.println();
+
 x.attack();
+((UltraMarine)x).studyBattle();
 
 
 
